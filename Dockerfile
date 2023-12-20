@@ -3,7 +3,6 @@ ENV  PYTHONUNBUFFERED=1
 
 WORKDIR /src
 
-RUN pip install --upgrade pip
 RUN pip install poetry
 
 COPY pyproject.toml* poetry.lock* ./
